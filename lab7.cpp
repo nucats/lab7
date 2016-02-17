@@ -1,1 +1,8 @@
-// insert stuff here
+#include "eecs230.h"
+
+
+
+int main()
+{
+    cout << "main()" << endl;
+}

@@ -34,4 +34,3 @@ endmacro (safe_add_cxx_flag)
 
 safe_add_cxx_flag(O0)           # Don't optimize
 safe_add_cxx_flag(g)            # Do include debug symbols
-
