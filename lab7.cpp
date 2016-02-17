@@ -18,7 +18,7 @@ int main()
     //pointer_arithmetic_ints();
 
 
-    //pointer_fun(6,3);
+    pointer_fun(6,3);
     //greater_val(...)
     //pointer_arithmetic_chars();
 
@@ -28,11 +28,13 @@ int main()
  * Prints to terminal the values of the ints at the pointers. Then, prints to terminal the value of the ints at the pointer locations.*/
 void pointer_fun(int a, int b)
 {
-    //your code here
-
+    int * ptrA = &a;
+    int * ptrB = &b;
+    cout << *ptrA << " " << *ptrB << " Location of a and b" << endl;
+    cout << (long) ptrA << " " << (long) ptrB << " Location of ptrA and ptrB" << endl;
 
     //follow-up question; how far away, in bytes, is location of ptrA versus location of ptrB? How many bytes is an int stored in?
-    //cout << "\n Int size (bytes): "<< sizeof(a) << endl;
+    cout << "\n Int size (bytes): "<< sizeof(a) << endl;
 
 }
 
@@ -57,7 +59,15 @@ void pointer_arithmetic_chars()
 
 short greater_val(short * ptrA, short * ptrB)
 {
-    //your code here
+    int x;
+    int y;
+    cin >> x >> y;
+    if (x>y){
+        cout << x << "is greater" << endl;}
+    else {
+        cout << y << "is greater" << endl; }
+
+
 
 
     return 0; // <--- change this
