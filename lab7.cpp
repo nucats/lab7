@@ -41,7 +41,7 @@ void pointer_arithmetic_chars()
     char course[] = "Programming for Engineers";
     char *pc = course;
 
-    int length = strlen(course);
+    int length = sizeof(course)/sizeof(char);
 
     for(int i=0; i<length; i++)
     {
