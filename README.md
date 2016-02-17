@@ -15,7 +15,11 @@ In this lab, you will review and work on solidifying your intuition with pointer
 
 4. Write a function `void pointer_arithmetic(string & s)` that takes a string, for instance "hello", and prints on one line the `char` at string index 0, and a pointer location to that `char`.  Update the pointer to pointer +2. Then, print the `char` at that pointer location and the pointer location.
 
-5. Work through creating a vector of all the students in your section. Use the following class definition:
+## Additional Practice
+
+5. Work through creating a vector of all the students in your section.
+
+ Use the following class definition:
 ```
 class Student
 {
@@ -29,4 +33,4 @@ class Student
         int grad_year_;
 }
 ```
-Create functions `add_student()` and `remove_student()` to complete the program.
+Store pointers to the Students in a global variable `vector<Student *>` enrollees. Create and test the following functions: `void add_student()`, `void remove_student()` , and void `change_grad_year(Student *, int g_yr)`.
