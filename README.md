@@ -13,6 +13,8 @@ In this lab, you will review and work on solidifying your intuition with pointer
 
 3. Write a function `void pointer_arithmetic_chars()` that takes an array of characters (`char[]`)  and iterates over the characters via a pointer to print the sentence.
 
+4. Purposely put a bug somewhere in the functions above, and use the debugger and well-placed breakpoints to find the bug.
+
 4. Work through creating a vector of all the students in your section.
 
  Use the following class definition:
