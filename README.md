@@ -15,7 +15,9 @@ In this lab, you will review and work on solidifying your intuition with pointer
 
 4. Purposely put a bug somewhere in the functions above, and use the debugger and well-placed breakpoints to find the bug.
 
-4. Work through creating a vector of all the students in your section.
+5. Allocate a new int with space from the heap store, in a helper function; use `int * ip = new int(4)`. Print out that pointer's value in `main()`.
+
+6. Work through creating a vector of all the students in your section.
 
  Use the following class definition:
 ```
